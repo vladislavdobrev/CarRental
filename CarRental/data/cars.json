@@ -1,0 +1,101 @@
+[
+	{
+		"manufactorer": "BMV",
+		"model": "M3",
+		"year": 2010,
+		"image": "/images/bmv_m3.jpg",
+        "available": 1,
+        "rentOptions": {
+            "pricePerDay": 100,
+            "returnDate": ""
+        }
+	},
+    {
+		"manufactorer": "Opel",
+		"model": "Insignia",
+		"year": 2009,
+		"image": "/images/opel_insignia.jpg",
+        "available": 1,
+        "rentOptions": {
+            "pricePerDay": 100,
+            "returnDate": ""
+        }
+	},
+    {
+		"manufactorer": "Opel",
+		"model": "Astra",
+		"year": 2011,
+		"image": "/images/opel_astra.jpg",
+        "available": 1,
+        "rentOptions": {
+            "pricePerDay": 100,
+            "returnDate": ""
+        }
+	},
+    {
+		"manufactorer": "Audi",
+		"model": "A5",
+		"year": 2008,
+		"image": "/images/opel_a5.jpg",
+        "available": 1,
+        "rentOptions": {
+            "pricePerDay": 100,
+            "returnDate": ""
+        }
+	},
+    {
+		"manufactorer": "Audi",
+		"model": "A8",
+		"year": 2009,
+		"image": "/images/opel_a8.jpg",
+        "available": 1,
+        "rentOptions": {
+            "pricePerDay": 100,
+            "returnDate": ""
+        }
+	},
+    {
+		"manufactorer": "Audi",
+		"model": "A3",
+		"year": 2005,
+		"image": "/images/opel_a3.jpg",
+        "available": 1,
+        "rentOptions": {
+            "pricePerDay": 100,
+            "returnDate": ""
+        }
+	},
+    {
+		"manufactorer": "Mercedes",
+		"model": "CL",
+		"year": 2011,
+		"image": "/images/mercedes_cl.jpg",
+        "available": 1,
+        "rentOptions": {
+            "pricePerDay": 100,
+            "returnDate": ""
+        }
+	},
+    {
+		"manufactorer": "Mercedes",
+		"model": "S",
+		"year": 2005,
+		"image": "/images/mercedes_s.jpg",
+        "available": 1,
+        "rentOptions": {
+            "pricePerDay": 100,
+            "returnDate": ""
+        }
+	},
+    {
+		"manufactorer": "Mercedes",
+		"model": "C",
+		"year": 2012,
+		"image": "/images/mercedes_c.jpg",
+        "available": 1,
+        "rentOptions": {
+            "pricePerDay": 100,
+            "returnDate": ""
+        }
+	}
+]
