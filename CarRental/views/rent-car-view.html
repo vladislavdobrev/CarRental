@@ -1,0 +1,28 @@
+<div data-role="view"
+     id="rent-car-view"
+     data-id="rent-car-view"
+     data-layout="main-layout"
+     data-title="Rent a car"
+     data-show="app.rentCar.init">
+    <h1>
+        Here you can rent some of out available cars!
+    </h1>
+    <div id="rent-car-holder">
+        <select id="cars-list"
+                data-role="dropdownlist"
+                data-bind="source: viewModel, events: { change: change}"
+                data-text-field="name"
+                data-value-field="id"
+                >
+        </select>
+        <div id="car-info">
+            <img data-bind="attr: { src: selectedCar.image, alt: selectedCar.model }"
+                 width="100%"/>
+            <span>Year: </span><span data-bind="text: selectedCar.year"></span><br>
+            <span>Rent options: </span><br>
+            <span>Price per day: </span><span data-bind="text: selectedCar.rentOptions.pricePerDay"></span><br>
+            <span>Return date: </span><span data-bind="text: selectedCar.rentOptions.returnDate"></span><br>
+            <span>Is available: </span><span data-bind="text: selectedCar.available"></span><br>
+        </div>
+    </div>
+</div>

@@ -3,16 +3,14 @@
     <head>
         <title></title>
         <meta charset="utf-8" />
-        <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
+        <link href="styles/main.css" rel="stylesheet" />
         <link href="kendo/styles/kendo.common.min.css" />
         <link href="kendo/styles/kendo.default.min.css" />
-        <link href="styles/main.css" rel="stylesheet" />
+        <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
 
         <script src="cordova.js"></script>
         <script src="kendo/js/jquery.min.js"></script>
         <script src="kendo/js/kendo.all.min.js"></script>
-        <script src="kendo/js/kendo.mobile.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
 
         <script src="scripts/libs/rsvp.min.js"></script>
         <script src="models/car-model.js"></script>
@@ -26,7 +24,7 @@
              data-id="home-view"
              data-layout="main-layout"
              data-title="Home">
-            <h2>Wellcome to Car Rent Services!</h2>
+            <h1>Wellcome to Car Rent Services!</h1>
         </div>
         
         <div data-role="layout"
@@ -39,7 +37,8 @@
             </header>
             <footer data-role="footer">
                 <div data-role="tabstrip">
-                    <a href="views/home-view#home-view" data-icon="home">Home</a>
+                    <a href="#home-view" data-icon="home">Home</a>
+                    <a href="views/rent-car-view.html#rent-car-view" data-icon="cart">Rent a car</a>
                     <a href="views/contacts-view.html#contacts-view" data-icon="contacts">Contacts</a>
                     <a href="views/about-view.html#about-view" data-icon="about">About</a>
                 </div>
